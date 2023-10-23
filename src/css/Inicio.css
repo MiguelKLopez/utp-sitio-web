@@ -1,0 +1,15 @@
+.landing {
+    position: relative;
+    height: 100vh;
+}
+  
+.landing h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 128px;
+    text-align: center;
+    color: #8E2A34;
+}

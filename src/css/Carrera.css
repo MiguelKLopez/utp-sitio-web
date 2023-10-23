@@ -1,0 +1,21 @@
+.carrera-contenedor{
+    width: 100%;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+p{  
+    margin: 45px;
+    margin-left: 350px;
+    width: 500px;
+    color: #000;
+    font-family: monospace;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p:hover{
+    
+}

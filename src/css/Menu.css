@@ -1,0 +1,33 @@
+.navbar {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.items{
+    color: #000;
+    font-family: monospace;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.me-auto{
+    gap: 15px;
+}
+
+.under-line{
+    width: 100%;
+    display: flex;
+}
+
+.items:hover{
+    color: #c85b66;
+    transform: scale(1.1); 
+    transition: font-size 0.3s ease-out, font-size 0.3s ease-in 0.3s;
+}
