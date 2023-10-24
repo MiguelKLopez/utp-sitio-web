@@ -1,0 +1,17 @@
+.items-noticias{
+    color: #000;
+    font-family: monospace;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contenedor-noticias{
+    margin-top: 200px;
+    margin-bottom: 410px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

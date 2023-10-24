@@ -2,14 +2,16 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'; 
 import Menu from './components/Menu';
-import Acerca from './components/Acerca';
-import Card from './components/Card';
-import Form from './components/Form';
-import Table from './components/Table';
+import Vinculacion from './components/Vinculacion';
+import Noticias from './components/Noticias';
+import Convocatorias from './components/Convocatorias';
 import Inicio from './components/Inicio';
-import Mercadotecnia from './components/Mercadotecnia.tsx';
+import Mercadotecnia from './components/Mercadotecnia.jsx';
+import UltimateLanding from './components/UltimateLanding';
+import Row from 'react-bootstrap/esm/Row';
+import Col from 'react-bootstrap/esm/Col';
 
-function App() {
+function App() {  
   return (
     <div className="App"> 
       <BrowserRouter>
@@ -17,16 +19,20 @@ function App() {
           <div>
             <Routes>
               <Route path='/inicio' element={<Inicio />} />
-              <Route path='/acerca' element={<Acerca />} />
-              <Route path='/form' element={<Form />} />
-              <Route path='/card' element={<Card />} />
-              <Route path='/table' element={<Table />} />
+              <Route path='/vinculacion' element={<Vinculacion />} />
+              <Route path='/noticias' element={<Noticias />} />
+              <Route path='/convocatorias' element={<Convocatorias />} />
             </Routes>
           </div>
         </BrowserRouter>
         <div className='Carrera'>
-          <h1>Nuestras Carreras</h1>
+          <Row>
+            <Col className='col-1'><h1>Nuestras Carreras</h1></Col>
+          </Row>
           <Mercadotecnia />
+        </div>
+        <div>
+          <UltimateLanding />
         </div>
     </div>
   );

@@ -31,3 +31,8 @@
     transform: scale(1.1); 
     transition: font-size 0.3s ease-out, font-size 0.3s ease-in 0.3s;
 }
+
+.img-logo{
+   border: none;
+   padding-left: 20px;
+}
